@@ -1,10 +1,10 @@
 # 🚀 软件产品研发流程框架
 
-> **一套结构化的 Boss × AI Agent 协作研发框架，覆盖从「灵感」到「技术方案」的完整流程。**
-
-[English](#english-version) | [更新日志](#更新日志)
+[English](#-software-product-development-framework) | [中文](#-软件产品研发流程框架)
 
 ---
+
+> **一套结构化的 Boss × AI Agent 协作研发框架，覆盖从「灵感」到「技术方案」的完整流程。**
 
 ## 📖 这是什么？
 
@@ -16,16 +16,12 @@
 
 框架提供了完整的 **流程定义 + 文档模板 + 示例内容**，开箱即用。
 
----
-
 ## 🎯 解决什么问题？
 
 - ❌ 个人项目想法多，但缺乏系统性梳理流程
 - ❌ 直接让 AI 写代码，跳过了需求分析和架构设计
 - ❌ AI 产出的文档缺乏结构，质量不稳定
 - ✅ **本框架让你和 AI Agent 按照专业研发流程协作**，确保每一步都有输入、有产出、有校验
-
----
 
 ## 🔄 核心流程
 
@@ -50,8 +46,6 @@
 
 > 📄 完整流程图和步骤详解请查看 [`00-流程与规范/研发流程总览.md`](00-流程与规范/研发流程总览.md)
 
----
-
 ## 📁 目录结构
 
 ```
@@ -71,11 +65,9 @@
 └── 归档/                    ← 历史版本归档
 ```
 
-每个目录下都有：
+**每个目录下都有：**
 - **`_模板-xxx.md`**：空白模板，创建新文档时复制使用
 - **`示例-xxx.md`**：基于"智能待办应用"的完整示例
-
----
 
 ## 🚀 快速开始
 
@@ -95,8 +87,6 @@ git clone https://github.com/Challiwei/common-project-development-framework.git
 2. 复制 `01-初步想法/_模板-初步想法.md`，写下你的产品想法
 3. 按流程步骤依次与 AI Agent 协作，完成从想法到技术方案的全过程
 
----
-
 ## 💡 使用场景
 
 - **个人独立开发者**：用 AI 帮你做产品分析和技术架构
@@ -104,13 +94,9 @@ git clone https://github.com/Challiwei/common-project-development-framework.git
 - **学习参考**：了解从想法到技术方案的完整研发流程
 - **Obsidian 用户**：一套开箱即用的项目管理模板
 
----
-
 ## 📋 示例内容
 
 项目中包含了一个完整的 **「智能待办应用」** 示例，覆盖了从初步想法到 API 文档的全部流程步骤，方便你理解每个环节的产出物应该长什么样。
-
----
 
 ## 🤝 贡献
 
@@ -121,15 +107,11 @@ git clone https://github.com/Challiwei/common-project-development-framework.git
 - 改进流程规范
 - 提供其他语言的翻译
 
----
-
-## 📄 License
+## 📄 开源协议
 
 本项目采用 [MIT License](LICENSE) 开源。
 
----
-
-## 更新日志
+## 📝 更新日志
 
 ### v2.0 - 2024-04-24
 
@@ -175,9 +157,11 @@ git clone https://github.com/Challiwei/common-project-development-framework.git
 
 ---
 
-## English Version
-
 # 🚀 Software Product Development Framework
+
+[中文](#-软件产品研发流程框架) | [English](#-software-product-development-framework)
+
+---
 
 > **A structured Boss × AI Agent collaboration framework covering the complete process from "idea" to "technical design".**
 
@@ -240,7 +224,7 @@ Project Root/
 └── 归档/                    ← Historical version archive
 ```
 
-Each directory contains:
+**Each directory contains:**
 - **`_模板-xxx.md`**: Blank templates for creating new documents
 - **`示例-xxx.md`**: Complete examples based on "Smart Todo App"
 
@@ -285,3 +269,47 @@ Welcome to submit Issues and Pull Requests! Common contribution directions:
 ## 📄 License
 
 This project is open-sourced under the [MIT License](LICENSE).
+
+## 📝 Changelog
+
+### v2.0 - 2024-04-24
+
+**New Features**
+
+1. **Added UI/UX Designer Role**
+   - Added `05-技术与设计方案/UI设计/` directory
+   - Includes UI design specification and interaction prototype templates
+
+2. **Added Technical Kickoff Meeting**
+   - Added `05-技术与设计方案/技术初步共识/` directory
+   - Step 7: All technical roles align on boundaries and constraints before parallel work
+
+3. **Added Global Task Management**
+   - Added `06-全局任务管理/` directory
+   - Includes task card template and global task board
+   - Introduced 65% context capacity rule to prevent LLM memory loss
+
+4. **Added CLAUDE.md**
+   - Provides project guidance for Claude Code
+
+**Structure Changes**
+
+1. **Directory Renamed**: `05-技术架构/` → `05-技术与设计方案/`
+2. **Workflow Optimization**: Original steps 7-10 adjusted to steps 7-9
+   - Step 7: Technical kickoff meeting (new)
+   - Step 8: Four roles work in parallel (8a/8b/8c/8d)
+   - Step 9: Collective review
+
+**Documentation Updates**
+
+1. Updated `00-流程与规范/研发流程总览.md`
+   - Added global task management mechanism
+   - Updated flowchart to swimlane layout
+
+2. Updated `00-流程与规范/Agent角色说明.md`
+   - Added UI/UX Designer role description
+   - Added general work guidelines section
+
+3. Updated README.md
+   - Added bilingual (Chinese/English) support
+   - Updated directory structure description
