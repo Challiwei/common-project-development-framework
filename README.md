@@ -4,7 +4,33 @@
 
 ---
 
+![No Coding](https://img.shields.io/badge/Goal-No_Coding-ff6b6b)
+![Vibe Coding](https://img.shields.io/badge/Vibe_Coding-Enabled-blueviolet)
+![Harness Engineering](https://img.shields.io/badge/Harness_Engineering-Powered-orange)
+![AI Driven](https://img.shields.io/badge/AI-Driven-4ea8de)
+![Document Driven](https://img.shields.io/badge/Document-Driven-2ecc71)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+> ### 为了无代码（No Coding）而努力向前
 > **一套结构化的 Boss × AI Agent 协作研发框架，覆盖从「灵感」到「技术方案」的完整流程。**
+
+## 🌐 设计理念
+
+AI Coding 的演进终点，是人类在应用层彻底从代码思维中解放出来——这不是遥远的未来，而是正在发生的趋势。
+
+**本框架是迈向 No-Coding 路径上的第一步。** 它用「文档驱动」替代「代码驱动」，让需求足够明确的项目无限接近于「全 AI 自动生成、无需人工干预」的目标。
+
+框架的核心设计思路是**按阶段分配 Agent**，不同阶段可替换不同能力和成本的模型与 Agent：
+
+| 阶段 | Agent 策略 |
+|------|------------|
+| 📐 规划 & 架构 | 高消耗 Agent + 最强模型，保证决策质量 |
+| 🔨 研发执行 | 高性价比 Agent 集群，批量并行执行任务卡片 |
+| 🧪 测试验证 | 编排工作流 + AI 组合，覆盖自动化测试与回归 |
+
+这个设计思路不限于当前版本的覆盖范围——随着 AI 能力的演进，框架的每个阶段都可以逐步接入更自动化的 Agent 实现。
 
 ## 📖 这是什么？
 
@@ -195,7 +221,33 @@ git clone https://github.com/Challiwei/common-project-development-framework.git
 
 ---
 
+![No Coding](https://img.shields.io/badge/Goal-No_Coding-ff6b6b)
+![Vibe Coding](https://img.shields.io/badge/Vibe_Coding-Enabled-blueviolet)
+![Harness Engineering](https://img.shields.io/badge/Harness_Engineering-Powered-orange)
+![AI Driven](https://img.shields.io/badge/AI-Driven-4ea8de)
+![Document Driven](https://img.shields.io/badge/Document-Driven-2ecc71)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
+
+> ### Marching Toward No-Coding
 > **A structured Boss × AI Agent collaboration framework covering the complete process from "idea" to "technical design".**
+
+## 🌐 Design Philosophy
+
+The ultimate destination of AI Coding evolution is freeing humans entirely from thinking in code at the application layer — this is not a distant future, but a trend already unfolding.
+
+**This framework is the first step on the path to No-Coding.** It replaces "code-driven" with "document-driven", pushing projects with well-defined requirements infinitely closer to the goal of "fully AI-generated, zero human intervention."
+
+The core design principle is **assigning Agents by phase** — different phases can plug in different models and Agents based on capability and cost:
+
+| Phase | Agent Strategy |
+|-------|---------------|
+| 📐 Planning & Architecture | High-capability Agent + strongest model, ensuring decision quality |
+| 🔨 Development Execution | Cost-efficient Agent cluster, executing task cards in parallel |
+| 🧪 Testing & Validation | Orchestrated workflows + AI combination for automated testing and regression |
+
+This design thinking is not limited to the current version's scope — as AI capabilities evolve, each phase of the framework can progressively adopt more autonomous Agent implementations.
 
 ## 📖 What is this?
 
